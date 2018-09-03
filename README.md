@@ -1,4 +1,4 @@
-#Workshop Angular + PWA - PDM Academy
+# Workshop Angular + PWA - PDM Academy
 O objetivo desse workshop é apresentar de uma forma simples, dinâmica e prática o poder do Angular para a criação de Single Page Application e Progressive Web App.
 
 ## Projeto Exemplo
