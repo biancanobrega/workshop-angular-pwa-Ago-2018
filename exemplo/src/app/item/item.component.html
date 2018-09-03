@@ -1,0 +1,16 @@
+<div class="example-list">
+<form class="example-form" [formGroup]="itemForm" (ngSubmit)="addItem(itemForm.value)">
+  <mat-form-field class="example-full-width">
+    <input matInput formControlName="name" placeholder="Item" value="">
+  </mat-form-field>
+  <button mat-raised-button [disabled]="!itemForm.valid" color="primary">Adicionar</button>
+</form>
+<div class="mensagem-nao-encontrado">
+  <p *ngIf="!items || items.length === 0">Nenhum item na lista</p>
+</div>
+<mat-selection-list>
+  <mat-list-option *ngFor="let item of items" (click)="item.checked = !item.checked">
+    <span [class.tachado]="item.checked">{{item.name}}</span>
+  </mat-list-option>
+</mat-selection-list>
+</div>
