@@ -8,6 +8,8 @@ No diretório possui um projeto de exemplo, seguir os passos abaixo para execut�
 - Ng build --prod para os arquivos de distribuição;
 - Dentro do diretório dist/exemplo executar o comando http-server -p 8080
 	- *Se ainda não possuir o http-server instalado, utilizar o comando npm install http-server -g para a instalação.* 
+
+**Projeto exemplo publicado**: https://primeiro-teste-pwa.firebaseapp.com
 	
 ## Desafio
 O Desafio consiste na criação de uma aplicação de notícias, essa aplicação deverá ser desenvolvida com Angular 6 e também funcionar como um PWA. [Descrição do desafio.](https://github.com/BiaNobrega/workshop-angular-pwa-Ago-2018/blob/master/DESAFIO.md "Descrição do desafio")
